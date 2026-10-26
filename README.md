@@ -13,3 +13,5 @@ Análisis de una muestra real de phishing dirigido con suplantación de la marca
 - SPF fail verificado contra la política real de target.com
 - Ausencia de verificación SPF/DKIM/DMARC en el punto de entrega original
 - Script de automatización con extracción de IOCs y consulta de reputación en tiempo real
+
+El script parse_eml.py espera el archivo .eml de muestra en la misma carpeta. La muestra no se versiona.
